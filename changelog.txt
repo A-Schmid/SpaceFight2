@@ -1,0 +1,60 @@
+[x] schild
+[ ] effektgraphik
+[x] partikel
+	(x) fly emitter
+	(x) hit emitter
+	(x) spieler emitter
+[x] waffen
+	(x) schuss
+	(x) laser
+	(x) rakete
+	(x) schocker
+	(x) froster
+		(x) kürzere lähmung
+		(x) schild nicht entfernen
+	(x) plasma
+	(x) gift
+[x] buffs
+	(x) waffen
+	(x) bonusschaden
+	(x) heilung 1
+	(x) heilung 2
+	( ) heilung zeit
+	(x) schild
+	(x) reflektor
+	(x) geschwindigkeitsbonus
+	(x) unverwundbarkeit
+	( ) unsichtbarkeit
+	( ) fallen
+		( ) schaden 1
+		( ) schaden 2
+		( ) schaden zeit
+		( ) verlangsamung
+		( ) steuerung umdrehen
+		( ) anfälligkeit
+[x] spielfeld unterteilen
+[x] dmg range
+[x] HUD
+	(x) hauptmenü
+		(x) logo
+		( ) hilfe menü
+			( ) waffen
+			( ) buffs
+		( ) optionsmenü
+			(x) farbe ändern
+			(x) bestimmte items deaktivieren
+			( ) host ip festlegen
+	(x) waffen anzeige
+	( ) buff anzeige
+	(x) lebensenergiebalken
+	(x) hintergrund für HUD
+[x] multiplayer
+[x] neues spiel funktion
+[x] raumschiff animation
+[x] raumschiff farben
+[x] schild anpassen
+[x] linkshänderfreundlich
+[x] computerraumfreundlich
+[x] ring bug
+[ ] lebensbalken verschönern (letzter schaden = rot)
+[ ] sounds
