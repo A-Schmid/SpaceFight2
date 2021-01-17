@@ -9,7 +9,7 @@ This version dates back to august 2010 when I was 17 years old.
 I updated it slightly to compile with a modern GCC.
 A simple *make* should build it on Linux, for Windows there are binaries in *windows/SF2.zip*.
 
-![Space Fight Main Menu](docs/SF_menu.png "Space Fight Main Menu")
+![Space Fight Main Menu](doc/SF_menu.png "Space Fight Main Menu")
 
 ## Gameplay
 
@@ -18,7 +18,7 @@ Each player has to shoot its enemy until their lives drop to zero.
 Ammonition is limited, but new weapons, as well as buffs (e.g. for healing) spawn on the battlefield.
 You may enter your enemie's side, but you will lose life over time.
 
-![Space Fight Gameplay](docs/SF_gameplay.png "Space Fight Gameplay")
+![Space Fight Gameplay](doc/SF_gameplay.png "Space Fight Gameplay")
 
 ### Controls
 
