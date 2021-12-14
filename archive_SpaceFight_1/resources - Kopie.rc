@@ -1,0 +1,141 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+#include <windows.h>
+#include "main.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Deutsch (Deutschland) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+
+
+501 MENU 
+BEGIN
+	POPUP "&File"
+	BEGIN
+		MENUITEM "&New", IDM_FILENEW
+		MENUITEM "&Open...", IDM_FILEOPEN
+		MENUITEM "&Save", IDM_FILESAVE
+		MENUITEM "Save &as...", IDM_FILESAVEAS
+		MENUITEM SEPARATOR
+		MENUITEM "&Print...", IDM_FILEPRINT
+		MENUITEM "Page se&tup...", IDM_FILEPAGESETUP
+		MENUITEM "P&rinter setup...", IDM_FILEPRINTSETUP
+		MENUITEM SEPARATOR
+		MENUITEM "E&xit", IDM_FILEEXIT
+	END
+
+	POPUP "&Edit"
+	BEGIN
+		MENUITEM "&Undo", IDM_EDITUNDO
+		MENUITEM SEPARATOR
+		MENUITEM "&Cut\tShift+Del", IDM_EDITCUT
+		MENUITEM "&Copy\tCtrl+Ins", IDM_EDITCOPY
+		MENUITEM "&Paste\tShift+Ins", IDM_EDITPASTE
+	END
+
+	POPUP "&Help"
+	BEGIN
+		MENUITEM "&Contents\tF1", IDM_HELPCONTENTS
+		MENUITEM "&Search", IDM_HELPSEARCH
+		MENUITEM "&Using help", IDM_HELPHELP
+		MENUITEM SEPARATOR
+		MENUITEM "&About...", IDM_HELPABOUT
+	END
+END
+
+RAUMSCHIFF1         BITMAP "img/raumschiff1.bmp"
+RAUMSCHIFF1MASK     BITMAP "img/raumschiff1mask.bmp"
+RAUMSCHIFF2         BITMAP "img/raumschiff2.bmp"
+RAUMSCHIFF2MASK     BITMAP "img/raumschiff2mask.bmp"
+SHOT1               BITMAP "img/shot1.bmp"
+SHOT1MASK           BITMAP "img/shot1mask.bmp"
+SHOT1_2             BITMAP "img/shot1_2.bmp"
+SHOT1_2MASK         BITMAP "img/shot1_2mask.bmp"
+SHOT2               BITMAP "img/shot2.bmp"
+SHOT2MASK           BITMAP "img/shot2mask.bmp"
+SHOT3               BITMAP "img/shot3.bmp"
+SHOT3MASK           BITMAP "img/shot3mask.bmp"
+SHOT3_2             BITMAP "img/shot3_2.bmp"
+SHOT3_2MASK         BITMAP "img/shot3_2mask.bmp"
+BACKGROUND          BITMAP "img/BG.bmp"
+GUIBG		        BITMAP "img/guiBG.bmp"
+BACKGROUNDMASK      BITMAP "img/BGmask.bmp"
+SHIELD1				BITMAP "img/shield1.bmp"
+SHIELD2				BITMAP "img/shield2.bmp"
+SHIELD3				BITMAP "img/shield3.bmp"
+SHIELD4				BITMAP "img/shield4.bmp"
+SHIELD1MASK			BITMAP "img/shield1mask.bmp"
+SHIELD2MASK			BITMAP "img/shield2mask.bmp"
+BUFFMASK			BITMAP "img/buffmask.bmp"
+HEALBUFF1			BITMAP "img/healbuff1.bmp"
+SPEEDBUFF1			BITMAP "img/speedbuff1.bmp"
+SHIELDBUFF1			BITMAP "img/shieldbuff1.bmp"
+SHIELDBUFF2			BITMAP "img/shieldbuff2.bmp"
+WPNROCKET1			BITMAP "img/wpnRocket1.bmp"
+WPNMG1				BITMAP "img/wpnMG1.bmp"
+WPNNUKE1			BITMAP "img/wpnNuke1.bmp"
+WPNROCKET2			BITMAP "img/wpnRocket2.bmp"
+
+#endif    // Deutsch (Deutschland) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,233 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+#include "main.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Deutsch (Deutschland) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+501 MENU DISCARDABLE 
+BEGIN
+    POPUP "&Spiel"
+    BEGIN
+        MENUITEM "&Neues Spiel...",             IDM_NEWGAME
+        MENUITEM "&Verlassen",                  IDM_FILEEXIT
+    END
+    POPUP "Spieler &1"
+    BEGIN
+        MENUITEM "Grau",                        IDM_P1GREY
+        MENUITEM "Blau",                        IDM_P1BLUE
+        MENUITEM "Grün",                        IDM_P1GREEN
+        MENUITEM "Cyan",                        IDM_P1CYAN
+        MENUITEM "Gelb",                        IDM_P1YELLOW
+        MENUITEM "Rot",                         IDM_P1RED
+        MENUITEM "Violett",                     IDM_P1VIOLET
+        MENUITEM "Rosa",                        IDM_P1PINK
+    END
+    POPUP "Spieler &2"
+    BEGIN
+        MENUITEM "Grau",                        IDM_P2GREY
+        MENUITEM "Blau",                        IDM_P2BLUE
+        MENUITEM "Grün",                        IDM_P2GREEN
+        MENUITEM "Cyan",                        IDM_P2CYAN
+        MENUITEM "Gelb",                        IDM_P2YELLOW
+        MENUITEM "Rot",                         IDM_P2RED
+        MENUITEM "Violett",                     IDM_P2VIOLET
+        MENUITEM "Rosa",                        IDM_P2PINK
+    END
+    POPUP "Leben"
+    BEGIN
+        MENUITEM "100",                         IDM_LIVES_100
+        MENUITEM "200",                         IDM_LIVES_200
+        MENUITEM "300",                         IDM_LIVES_300
+        MENUITEM "400",                         IDM_LIVES_400
+        MENUITEM "500",                         IDM_LIVES_500
+        MENUITEM "600",                         IDM_LIVES_600
+        MENUITEM "700",                         IDM_LIVES_700
+        MENUITEM "800",                         IDM_LIVES_800
+        MENUITEM "900",                         IDM_LIVES_900
+        MENUITEM "999",                         IDM_LIVES_999
+        MENUITEM "Deathmatch",                  IDM_LIVES_1
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+RAUMSCHIFF1MASK         BITMAP  MOVEABLE PURE   "img/raumschiff1mask.bmp"
+RAUMSCHIFF2MASK         BITMAP  MOVEABLE PURE   "img/raumschiff2mask.bmp"
+RAUMSCHIFF1             BITMAP  MOVEABLE PURE   "img/raumschiff1.bmp"
+RAUMSCHIFF2             BITMAP  MOVEABLE PURE   "img/raumschiff2.bmp"
+RAUMSCHIFF1BLUE         BITMAP  MOVEABLE PURE   "img/raumschiff1blue.bmp"
+RAUMSCHIFF2BLUE         BITMAP  MOVEABLE PURE   "img/raumschiff2blue.bmp"
+RAUMSCHIFF1PINK         BITMAP  MOVEABLE PURE   "img/raumschiff1pink.bmp"
+RAUMSCHIFF2PINK         BITMAP  MOVEABLE PURE   "img/raumschiff2pink.bmp"
+RAUMSCHIFF1CYAN         BITMAP  MOVEABLE PURE   "img/raumschiff1cyan.bmp"
+RAUMSCHIFF2CYAN         BITMAP  MOVEABLE PURE   "img/raumschiff2cyan.bmp"
+RAUMSCHIFF1GREEN        BITMAP  MOVEABLE PURE   "img/raumschiff1green.bmp"
+RAUMSCHIFF2GREEN        BITMAP  MOVEABLE PURE   "img/raumschiff2green.bmp"
+RAUMSCHIFF1RED          BITMAP  MOVEABLE PURE   "img/raumschiff1red.bmp"
+RAUMSCHIFF2RED          BITMAP  MOVEABLE PURE   "img/raumschiff2red.bmp"
+RAUMSCHIFF1YELLOW       BITMAP  MOVEABLE PURE   "img/raumschiff1yellow.bmp"
+RAUMSCHIFF2YELLOW       BITMAP  MOVEABLE PURE   "img/raumschiff2yellow.bmp"
+RAUMSCHIFF1VIOLET       BITMAP  MOVEABLE PURE   "img/raumschiff1violet.bmp"
+RAUMSCHIFF2VIOLET       BITMAP  MOVEABLE PURE   "img/raumschiff2violet.bmp"
+SHOT1                   BITMAP  MOVEABLE PURE   "img/shot1.bmp"
+SHOT1MASK               BITMAP  MOVEABLE PURE   "img/shot1mask.bmp"
+SHOT1_2                 BITMAP  MOVEABLE PURE   "img/shot1_2.bmp"
+SHOT1_2MASK             BITMAP  MOVEABLE PURE   "img/shot1_2mask.bmp"
+SHOT2                   BITMAP  MOVEABLE PURE   "img/shot2.bmp"
+SHOT2MASK               BITMAP  MOVEABLE PURE   "img/shot2mask.bmp"
+SHOT3                   BITMAP  MOVEABLE PURE   "img/shot3.bmp"
+SHOT3MASK               BITMAP  MOVEABLE PURE   "img/shot3mask.bmp"
+SHOT3_2                 BITMAP  MOVEABLE PURE   "img/shot3_2.bmp"
+SHOT3_2MASK             BITMAP  MOVEABLE PURE   "img/shot3_2mask.bmp"
+SHOT4                   BITMAP  MOVEABLE PURE   "img/shot4.bmp"
+SHOT4MASK               BITMAP  MOVEABLE PURE   "img/shot4mask.bmp"
+SHOT4_2                 BITMAP  MOVEABLE PURE   "img/shot4_2.bmp"
+SHOT4_2MASK             BITMAP  MOVEABLE PURE   "img/shot4_2mask.bmp"
+SHOT5                   BITMAP  MOVEABLE PURE   "img/shot5.bmp"
+SHOT5MASK               BITMAP  MOVEABLE PURE   "img/shot5mask.bmp"
+SHOT5_2                 BITMAP  MOVEABLE PURE   "img/shot5_2.bmp"
+SHOT5_2MASK             BITMAP  MOVEABLE PURE   "img/shot5_2mask.bmp"
+SHOT6F1                 BITMAP  MOVEABLE PURE   "img/shot6frame1.bmp"
+SHOT6F2                 BITMAP  MOVEABLE PURE   "img/shot6frame2.bmp"
+SHOT6F3                 BITMAP  MOVEABLE PURE   "img/shot6frame3.bmp"
+SHOT6F4                 BITMAP  MOVEABLE PURE   "img/shot6frame4.bmp"
+SHOT6F5                 BITMAP  MOVEABLE PURE   "img/shot6frame5.bmp"
+SHOT6MASK               BITMAP  MOVEABLE PURE   "img/shot6mask.bmp"
+SHOT6DROP1              BITMAP  MOVEABLE PURE   "img/shot6drop1.bmp"
+SHOT6DROP2              BITMAP  MOVEABLE PURE   "img/shot6drop2.bmp"
+SHOT6DROP3              BITMAP  MOVEABLE PURE   "img/shot6drop3.bmp"
+SHOT6DROP4              BITMAP  MOVEABLE PURE   "img/shot6drop4.bmp"
+SHOT6DROPMASK           BITMAP  MOVEABLE PURE   "img/shot6dropmask.bmp"
+BACKGROUND              BITMAP  MOVEABLE PURE   "img/BG.bmp"
+GUIBG                   BITMAP  MOVEABLE PURE   "img/guiBG.bmp"
+BACKGROUNDMASK          BITMAP  MOVEABLE PURE   "img/BGmask.bmp"
+SHIELD1                 BITMAP  MOVEABLE PURE   "img/shield1.bmp"
+SHIELD2                 BITMAP  MOVEABLE PURE   "img/shield2.bmp"
+SHIELD3                 BITMAP  MOVEABLE PURE   "img/shield3.bmp"
+SHIELD4                 BITMAP  MOVEABLE PURE   "img/shield4.bmp"
+SHIELDICE               BITMAP  MOVEABLE PURE   "img/shieldIce.bmp"
+SHIELDICEMASK           BITMAP  MOVEABLE PURE   "img/shieldIcemask.bmp"
+SHIELD1MASK             BITMAP  MOVEABLE PURE   "img/shield1mask.bmp"
+SHIELD2MASK             BITMAP  MOVEABLE PURE   "img/shield2mask.bmp"
+BUFFMASK                BITMAP  MOVEABLE PURE   "img/buffmask.bmp"
+HEALBUFF1               BITMAP  MOVEABLE PURE   "img/healbuff1.bmp"
+HEALBUFF3               BITMAP  MOVEABLE PURE   "img/healbuff3.bmp"
+HEALBUFF4               BITMAP  MOVEABLE PURE   "img/healbuff4.bmp"
+SPEEDBUFF1              BITMAP  MOVEABLE PURE   "img/speedbuff1.bmp"
+SHIELDBUFF1             BITMAP  MOVEABLE PURE   "img/shieldbuff1.bmp"
+SHIELDBUFF2             BITMAP  MOVEABLE PURE   "img/shieldbuff2.bmp"
+WPNROCKET1              BITMAP  MOVEABLE PURE   "img/wpnRocket1.bmp"
+WPNMG1                  BITMAP  MOVEABLE PURE   "img/wpnMG1.bmp"
+WPNNUKE1                BITMAP  MOVEABLE PURE   "img/wpnNuke1.bmp"
+WPNROCKET2              BITMAP  MOVEABLE PURE   "img/wpnRocket2.bmp"
+WPNSHOCK1               BITMAP  MOVEABLE PURE   "img/wpnShock1.bmp"
+WPNICE1                 BITMAP  MOVEABLE PURE   "img/wpnIce1.bmp"
+WPNPSY1                 BITMAP  MOVEABLE PURE   "img/wpnPsy1.bmp"
+COLORBLUE               BITMAP  MOVEABLE PURE   "img/colorBlue.bmp"
+TRAP1                   BITMAP  MOVEABLE PURE   "img/trap1.bmp"
+NR0                     BITMAP  MOVEABLE PURE   "img/numbers/0.bmp"
+NR1                     BITMAP  MOVEABLE PURE   "img/numbers/1.bmp"
+NR2                     BITMAP  MOVEABLE PURE   "img/numbers/2.bmp"
+NR3                     BITMAP  MOVEABLE PURE   "img/numbers/3.bmp"
+NR4                     BITMAP  MOVEABLE PURE   "img/numbers/4.bmp"
+NR5                     BITMAP  MOVEABLE PURE   "img/numbers/5.bmp"
+NR6                     BITMAP  MOVEABLE PURE   "img/numbers/6.bmp"
+NR7                     BITMAP  MOVEABLE PURE   "img/numbers/7.bmp"
+NR8                     BITMAP  MOVEABLE PURE   "img/numbers/8.bmp"
+NR9                     BITMAP  MOVEABLE PURE   "img/numbers/9.bmp"
+DMGBUFF1                BITMAP  DISCARDABLE     "img\\dmgbuff1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+A                       ICON    DISCARDABLE     "img/ICON.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOGBAR DIALOGEX 0, 0, 330, 16
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "Lives P1:",IDC_STATIC,5,3,30,11
+    CTEXT           "200",LIVESP1,39,2,26,11,SS_CENTERIMAGE | WS_BORDER,
+                    WS_EX_ACCEPTFILES
+    LTEXT           "Lives P2:",IDC_STATIC,259,4,30,11
+    CTEXT           "200",LIVESP2,294,3,26,11,SS_CENTERIMAGE | WS_BORDER,
+                    WS_EX_ACCEPTFILES
+END
+
+#endif    // Deutsch (Deutschland) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

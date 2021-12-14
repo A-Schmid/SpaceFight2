@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: SpaceFight - Win32 Debug--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Erstellen der temporären Datei  "C:\Users\Hofnoa\AppData\Local\Temp\RSP26A4.tmp" mit Inhalten
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/SpaceFight.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Program Files\Microsoft Visual Studio\MyProjects\SpaceFight\main.cpp"
+]
+Creating command line "cl.exe @C:\Users\Hofnoa\AppData\Local\Temp\RSP26A4.tmp" 
+Erstellen der temporären Datei  "C:\Users\Hofnoa\AppData\Local\Temp\RSP26A5.tmp" mit Inhalten
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/SpaceFight.pdb" /debug /machine:I386 /out:"Debug/SpaceFight.exe" /pdbtype:sept 
+".\Debug\main.obj"
+".\Debug\resources.res"
+]
+Erstellen der Befehlzeile "link.exe @C:\Users\Hofnoa\AppData\Local\Temp\RSP26A5.tmp"
+<h3>Ausgabefenster</h3>
+Kompilierung läuft...
+main.cpp
+C:\Program Files\Microsoft Visual Studio\MyProjects\SpaceFight\main.cpp(675) : warning C4305: '=' : Verkuerzung von 'const double' in 'float'
+C:\Program Files\Microsoft Visual Studio\MyProjects\SpaceFight\main.cpp(769) : warning C4305: '=' : Verkuerzung von 'const double' in 'float'
+C:\Program Files\Microsoft Visual Studio\MyProjects\SpaceFight\main.cpp(423) : warning C4715: 'i2p' : Nicht alle Steuerelementpfade geben einen Wert zurück
+Linker-Vorgang läuft...
+LINK : warning LNK4076: Datei "Debug/SpaceFight.ilk" fuer den inkrementelles Status ungueltig; Bindung erfolgt nichtinkrementell
+
+
+
+<h3>Ergebnisse</h3>
+SpaceFight.exe - 0 Fehler, 4 Warnung(en)
+</pre>
+</body>
+</html>

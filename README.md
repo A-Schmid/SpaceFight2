@@ -30,7 +30,14 @@ Right player: Arrow keys to move, numpad 0 to shoot
 
 Yes, you can play *SpaceFight 2* over the network.
 The host has to choose to start the game as a server.
-The client has to enter the host's IP in 'config.txt' and start the game as a host.
+The client has to enter the host's IP in 'config.txt' and start the game as a client.
+
+## Wait, what about SpaceFight 1?
+
+The code of the original SpaceFight game (from december 2008) can be found in the "archive_SpaceFight_1" directory.
+I did not touch anything and can't compile it on Linux due to Win32 dependencies.
+However, there is an exe file that kind of works with Wine, however in my case the background is white and the window is too big.
+You can also see my innovative workaround to not having heard of version control as there are like 12 copies of the source code.
 
 ## Acknowledgements
 

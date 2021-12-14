@@ -1,0 +1,183 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+#include "main.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Deutsch (Deutschland) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+501 MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New",                        IDM_FILENEW
+        MENUITEM "&Open...",                    IDM_FILEOPEN
+        MENUITEM "&Save",                       IDM_FILESAVE
+        MENUITEM "Save &as...",                 IDM_FILESAVEAS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...",                   IDM_FILEPRINT
+        MENUITEM "Page se&tup...",              IDM_FILEPAGESETUP
+        MENUITEM "P&rinter setup...",           IDM_FILEPRINTSETUP
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       IDM_FILEEXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo",                       IDM_EDITUNDO
+        MENUITEM SEPARATOR
+        MENUITEM "&Cut\tShift+Del",             IDM_EDITCUT
+        MENUITEM "&Copy\tCtrl+Ins",             IDM_EDITCOPY
+        MENUITEM "&Paste\tShift+Ins",           IDM_EDITPASTE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Contents\tF1",               IDM_HELPCONTENTS
+        MENUITEM "&Search",                     IDM_HELPSEARCH
+        MENUITEM "&Using help",                 IDM_HELPHELP
+        MENUITEM SEPARATOR
+        MENUITEM "&About...",                   IDM_HELPABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+RAUMSCHIFF1             BITMAP  MOVEABLE PURE   "img/raumschiff1.bmp"
+RAUMSCHIFF1MASK         BITMAP  MOVEABLE PURE   "img/raumschiff1mask.bmp"
+RAUMSCHIFF2             BITMAP  MOVEABLE PURE   "img/raumschiff2.bmp"
+RAUMSCHIFF2MASK         BITMAP  MOVEABLE PURE   "img/raumschiff2mask.bmp"
+RAUMSCHIFF1BLUE         BITMAP  MOVEABLE PURE   "img/raumschiff1blue.bmp"
+RAUMSCHIFF2BLUE         BITMAP  MOVEABLE PURE   "img/raumschiff2blue.bmp"
+
+SHOT1                   BITMAP  MOVEABLE PURE   "img/shot1.bmp"
+SHOT1MASK               BITMAP  MOVEABLE PURE   "img/shot1mask.bmp"
+SHOT1_2                 BITMAP  MOVEABLE PURE   "img/shot1_2.bmp"
+SHOT1_2MASK             BITMAP  MOVEABLE PURE   "img/shot1_2mask.bmp"
+SHOT2                   BITMAP  MOVEABLE PURE   "img/shot2.bmp"
+SHOT2MASK               BITMAP  MOVEABLE PURE   "img/shot2mask.bmp"
+SHOT3                   BITMAP  MOVEABLE PURE   "img/shot3.bmp"
+SHOT3MASK               BITMAP  MOVEABLE PURE   "img/shot3mask.bmp"
+SHOT3_2                 BITMAP  MOVEABLE PURE   "img/shot3_2.bmp"
+SHOT3_2MASK             BITMAP  MOVEABLE PURE   "img/shot3_2mask.bmp"
+SHOT4                   BITMAP  MOVEABLE PURE   "img/shot4.bmp"
+SHOT4MASK               BITMAP  MOVEABLE PURE   "img/shot4mask.bmp"
+SHOT4_2                 BITMAP  MOVEABLE PURE   "img/shot4_2.bmp"
+SHOT4_2MASK             BITMAP  MOVEABLE PURE   "img/shot4_2mask.bmp"
+BACKGROUND              BITMAP  MOVEABLE PURE   "img/BG.bmp"
+GUIBG                   BITMAP  MOVEABLE PURE   "img/guiBG.bmp"
+BACKGROUNDMASK          BITMAP  MOVEABLE PURE   "img/BGmask.bmp"
+SHIELD1                 BITMAP  MOVEABLE PURE   "img/shield1.bmp"
+SHIELD2                 BITMAP  MOVEABLE PURE   "img/shield2.bmp"
+SHIELD3                 BITMAP  MOVEABLE PURE   "img/shield3.bmp"
+SHIELD4                 BITMAP  MOVEABLE PURE   "img/shield4.bmp"
+SHIELD1MASK             BITMAP  MOVEABLE PURE   "img/shield1mask.bmp"
+SHIELD2MASK             BITMAP  MOVEABLE PURE   "img/shield2mask.bmp"
+BUFFMASK                BITMAP  MOVEABLE PURE   "img/buffmask.bmp"
+HEALBUFF1               BITMAP  MOVEABLE PURE   "img/healbuff1.bmp"
+SPEEDBUFF1              BITMAP  MOVEABLE PURE   "img/speedbuff1.bmp"
+SHIELDBUFF1             BITMAP  MOVEABLE PURE   "img/shieldbuff1.bmp"
+SHIELDBUFF2             BITMAP  MOVEABLE PURE   "img/shieldbuff2.bmp"
+WPNROCKET1              BITMAP  MOVEABLE PURE   "img/wpnRocket1.bmp"
+WPNMG1                  BITMAP  MOVEABLE PURE   "img/wpnMG1.bmp"
+WPNNUKE1                BITMAP  MOVEABLE PURE   "img/wpnNuke1.bmp"
+WPNROCKET2              BITMAP  MOVEABLE PURE   "img/wpnRocket2.bmp"
+WPNSHOCK1               BITMAP  MOVEABLE PURE   "img/wpnShock1.bmp"
+
+COLORBLUE               BITMAP  MOVEABLE PURE   "img/colorBlue.bmp"
+
+NR0						BITMAP  MOVEABLE PURE   "img/numbers/0.bmp"
+NR1						BITMAP  MOVEABLE PURE   "img/numbers/1.bmp"
+NR2						BITMAP  MOVEABLE PURE   "img/numbers/2.bmp"
+NR3						BITMAP  MOVEABLE PURE   "img/numbers/3.bmp"
+NR4						BITMAP  MOVEABLE PURE   "img/numbers/4.bmp"
+NR5						BITMAP  MOVEABLE PURE   "img/numbers/5.bmp"
+NR6						BITMAP  MOVEABLE PURE   "img/numbers/6.bmp"
+NR7						BITMAP  MOVEABLE PURE   "img/numbers/7.bmp"
+NR8						BITMAP  MOVEABLE PURE   "img/numbers/8.bmp"
+NR9						BITMAP  MOVEABLE PURE   "img/numbers/9.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+A ICON MOVEABLE PURE LOADONCALL DISCARDABLE "img/ICON.ico"
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOGBAR DIALOGEX 0, 0, 330, 16
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Lives P1:",IDC_STATIC,5,3,30,11
+    CTEXT           "200",LIVESP1,39,2,26,11,SS_CENTERIMAGE | WS_BORDER,
+                    WS_EX_ACCEPTFILES
+    LTEXT           "Lives P2:",IDC_STATIC,259,4,30,11
+    CTEXT           "200",LIVESP2,294,3,26,11,SS_CENTERIMAGE | WS_BORDER,
+                    WS_EX_ACCEPTFILES
+END
+
+#endif    // Deutsch (Deutschland) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
